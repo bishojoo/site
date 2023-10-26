@@ -1,4 +1,4 @@
-# Iriscot Frontpage
+# Bisojo Site
 
 A personal frontpage showcasing my projects.
 

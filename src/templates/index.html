@@ -6,24 +6,21 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/main.css') }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="index, follow" />
-    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
-    <meta name="description" content="{{ _('Everything you ever wanted to know about Iriscot.') }}" />
-	<title>Iriscot</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+    <meta name="description" content="{{ _('Everything you ever wanted to know about Bishojo.') }}" />
+	<title>bishojo</title>
 </head>
 <body>
 	<header class="is-align-content-center is-justify-content-center is-flex is-flex-direction-column">
-		<h1>{{ _('Hi, I am Iriscot') }}</h1>
-		<h2 class="alsoknown">a.k.a. Mikami North</h2>
+		<h1>{{ _('Hi, I am Bishojo') }}</h1>
 	</header>
 
 	<main>
 
 <section class="all_the_links">
-		<div class="columns">
-    <div class="column">
-    	<div class="center">
-    		<div class="plashque">{{ _('Software') }}</div>
-    	</div>
+		<div>
+    <div class="center">
+    	
 <div class="projects">
     {% for project in media.projects.cards %}
     <div class="project">
@@ -52,18 +49,18 @@
     </div>
 
 
-    <div class="column">
+    <div>
         <div class="center">
-            <div class="plashque">{{ _('Artworks') }}</div>
+            <div class="plashque">{{ _('Photo') }}</div>
         </div>
 <div class="projects is-flex is-align-content-center">
-    <div class="image-grid">
-        {% for artwork in artworks %}
-        <div class="image-item">
-            <img src="{{ artwork }}" alt="Artwork">
-        </div>
-        {% endfor %}
+   <div class="image-grid">
+    {% for photo in photos %}
+    <div class="image-item">
+        <img src="{{ photo|safe }}" alt="Photo">
     </div>
+    {% endfor %}
+</div>
 </div>
 
 <div class="center links-after">
@@ -80,54 +77,21 @@
     </div>
 
 
-    <div class="column">
-        <div class="center">
-            <div class="plashque">{{ _('And also') }}</div>
-        </div>
-<div class="projects">
-    {% for etc in media.etc.cards %}
-    <div class="project">
-        <img class="circle-image" src="{{ url_for('static', filename='images/' + etc.image) }}" alt="{{ etc.name }}">
-        <div class="text-content">
-            <span class="project-title">
-                <a href="{{ etc.link }}">{{ etc.name }}</a>
-                {% if etc.lang != user_language %}
-                <span class="lang_code">{{ etc.lang }}</span>
-                {% endif %}
-            </span>
-            <p class="project-desc">{{ etc.desc }}</p>
-        </div>
-    </div>
-    {% endfor %}
-</div>
-
-<div class="center links-after">
-    <p>
-    {% for link in media.etc.links %}
-            <a href="{{ link.href }}">{{ link.title }}</a>
-                {% if link.lang != user_language %}
-                <span class="lang_code">{{ link.lang }}</span>
-                {% endif %}
-            {% if not loop.last %} &middot; {% endif %}
-    {% endfor %}
-</p>
-</div>
-    </div>
+    
 </div>
 </section>
 
 <section class="talk">
-    <img src="{{ url_for('static', filename='images/likes.webp') }}" alt="Thumbs up icons" class="talk_bg">
-    <h1>{{ _('Want to talk?') }}</h1>
-    <p>{{ _('If you just want to chat, message me on <a href="http://t.me/iriscot">Telegram</a> or send an email to <a href="mailto:me@iriscot.org">me@iriscot.org</a>!') }}</p>
-    <p>{{ _('I also offer paid consultations in psychology or IT (development, security).') }}</p>
+    <img src="{{ url_for('static', filename='images/svg.png') }}" alt="Thumbs up icons" class="talk_bg">
+    <h1>{{ _('Need design ?') }}</h1>
+    <p>{{ _('message me on <a href="https://t.me/bishojodesigner">Telegram</a> or  <a href="https://api.whatsapp.com/send/?phone=79181276093&text&type=phone_number&app_absent=0">WhatsApp</a>!') }}</p>
 </section>
 
 	</main>
 
 <footer>
 <div class="columns">
-<div class="column copyleft">&copy; Iriscot Software {{ current_year }}</div>
+<div class="column copyleft">&copy; Bishojo Designer {{ current_year }}</div>
 <div class="column current_time has-text-centered">{{ _('It is') }} <span id="time">GMT+3</span> {{ _('in my timezone now') }}</div>
 <div class="column languages_selector right">
 {% if user_language == 'ru' %}

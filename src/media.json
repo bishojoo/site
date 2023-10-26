@@ -2,81 +2,28 @@
     "projects": {
         "cards": [
         {
-            "name": "Анонимный чат Amadeus",
-            "link": "http://t.me/amadeus_chat_bot",
-            "image": "amadeus.webp",
-            "language": "Python",
-            "year": 2021
-        },
-        {
-            "name": "QR Coder",
-            "link": "http://t.me/qr_custom_bot",
-            "image": "qrcoder.webp",
-            "language": "Python",
-            "year": 2022
-        },
-        {
-            "name": "Zero BBS",
-            "link": "http://bbs.iriscot.org",
-            "image": "zerobbs.webp",
-            "language": "PHP",
-            "year": 2018
-        },
-        {
-            "name": "Amnesia",
-            "link": "http://amnesia.iriscot.org",
-            "image": "amnesia.webp",
-            "language": "PHP",
-            "year": 2018
-        },
-        {
-            "name": "#нейрооткрытки",
-            "link": "http://2023.iriscot.org",
-            "image": "neurocards.webp",
-            "language": "Python",
+            "name": "PORTFOLIO",
+            "link": "https://t.me/designerbishojo",
+            "image": "ava.jpg",
+            "language": "Graphic designer",
             "year": 2023
         }
     ],
-        "links": [
-            {"title": "Github", "href": "https://github.com/iriscot", "lang": "en"},
-            {"title": "Status", "href": "https://status.iriscot.org", "lang": "en"}
-        ]
+        "links": []
     },
     "artworks": {
         "cards": [],
         "links": [
-            {"title": "Inst", "href": "https://instagram.com/mikaminorth", "lang": "en"},
-            {"title": "Twitter", "href": "https://x.com/mikaminorth", "lang": "en"},
-            {"title": "Telegram", "href": "https://t.me/iriscot_arts", "lang": "ru"}
+            {"title": "Inst", "href": "https://instagram.com/bishojodesign", "lang": "ru"},
+            {"title": "Twitter", "href": "https://x.com/kaneki535105", "lang": "en"},
+            {"title": "Telegram", "href": "https://t.me/bishojodesigner", "lang": "ru"}
         ]
     },
     "etc": {
         "cards": [
-        {
-            "name": "framed feelings 🌁",
-            "link": "http://t.me/framed_feelings",
-            "image": "framed_feelings.webp",
-            "lang": "ru",
-            "desc": "Фотоальбом"
-        },
-        {
-            "name": "ПСИХОВОРОНКА",
-            "link": "http://t.me/Psychohunter",
-            "image": "Psychohunter.webp",
-            "lang": "ru",
-            "desc": "Психология"
-        },
-        {
-            "name": "Цифровая Благодетель",
-            "link": "http://t.me/infosex",
-            "image": "infosex.webp",
-            "lang": "ru",
-            "desc": "Инфобез"
-        }
+       
     ],
         "links": [
-            {"title": "Tumblr", "href": "https://iriscot.tumblr.com/", "lang": "en"},
-            {"title": "Last.fm", "href": "https://www.last.fm/user/iriscotic", "lang": "en"}
         ]
     }
 }

@@ -5,7 +5,7 @@ html, body{
 }
 
 body {
-     background-color: #001;
+     background-color: #330223;
      color: #fff;
      font-size: 14px;
      max-width: 100%;
@@ -20,13 +20,15 @@ body {
  header{
      text-align: center;
      margin-bottom: 50px;
-     min-height: 300px;
-     background: radial-gradient(ellipse 100% 125% at center, rgba(93,13,115,1) 0%, rgba(0,0,0,0) 19%);
+     min-height: 50px;
+     background:radial-gradient(ellipse 200% 500% at center, #f5f5f5 0%, rgb(2 0 0 / 0%) 19%);
+    color: #934972;
+
 }
 
  header h1{
-     font-size: 4em;
-     font-weight: 100;
+     font-size: 1em;
+     font-weight: bold;
      margin-bottom: 0;
 }
  header h2{
@@ -59,16 +61,15 @@ body {
      margin: 15px auto;
 }
  .project {
-     display: flex;
-     align-items: center;
+     
      padding: 20px;
 }
  .circle-image {
-     width: 50px;
-     height: 50px;
-     border-radius: 50%;
-     object-fit: cover;
-     margin-right: 20px;
+         width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 49px;
 }
  .project .text-content {
      flex: 1;
@@ -113,7 +114,7 @@ body {
      box-shadow: -2px 1px 47px 16px rgba(25,64,141,0.54);
 }
  section.talk{
-     background: linear-gradient(270deg, #3d0769, #073469, #005974);
+     background: linear-gradient(270deg, #9e7bbb00, #0734690a, #ff87b6);
      padding: 30px;
      margin-top: 50px;
      position: relative;
@@ -123,7 +124,7 @@ body {
      right: 0;
      top: 0px;
      max-height: 150px;
-     opacity: .1;
+     
 }
  section.talk a{
      border-bottom: 1px solid #fff;
