@@ -94,7 +94,7 @@ body {
      padding: 10px;
      width: 100%;
 }
- .image-item {
+ .image-item {    margin: 0 auto;
      position: relative;
      overflow: hidden;
      border-radius: 5px;
@@ -121,9 +121,9 @@ body {
 }
  section.talk .talk_bg{
      position: absolute;
-     right: 0;
+     right: 1%;
      top: 0px;
-     max-height: 150px;
+     max-height: 79px;
      
 }
  section.talk a{
