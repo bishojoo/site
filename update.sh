@@ -17,4 +17,4 @@ cd src
 docker build -t bishojo_website .
 
 # Run the Docker container
-docker run -d -p 4888:4888 --name=bishojo_website --restart=unless-stopped bishojo_website
+docker run -d -p 4889:4888 --name=bishojo_website --restart=unless-stopped bishojo_website

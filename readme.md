@@ -13,7 +13,7 @@ A personal frontpage showcasing my projects.
 ./update.sh
 ```
 
-3. Reverse proxy from port 4888
+3. Reverse proxy from port 4889
 
 4. ????
 
